@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-top: 37px;
+	margin-left: 28px;
+}
+
+.rating{
+	display: inline-block;
+}
+
+.rating__item{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-image: url(../_img/skin.png);
+	cursor: pointer;
+}
+
+.rating__item_active,
+.rating__item:hover{
+	background-image: url(../_img/skin-active.png);
+}
+
+button{
+	display: block;
+	margin-top: 165px;
+	padding: 3px 21px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	border: none;
+	font-size: 11px;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	cursor: pointer;
+	box-shadow: 1px 1px 2px #a8a8a8;
+}
